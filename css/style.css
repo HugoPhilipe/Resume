@@ -65,37 +65,41 @@ html,body{
     padding: 0 3%;
 }
 
-section.descricao{
+section.about{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
-section.descricao h2{
+section.about h2{
     color: #343a40;
     font-size: 70px;
     font-weight: 700;
     font-family: 'Saira Extra Condensed', sans-serif;
 }
 
-section.descricao h2 > span,
-section.descricao h3 > span {
+section.about h2 > span,
+section.about h3 > span {
     color: blueviolet;
 }
 
-section.descricao h3{
+section.about h3{
     font-family: 'Saira Extra Condensed', sans-serif;
     text-transform: uppercase;
     color: #343a40;
     font-size: 22px;
 }
 
-section.descricao p{
+section.about p{
     color: #343a40;
     font-size: 18px;
     margin-top: 40px;
     font-family: 'Saira Extra Condensed', sans-serif;
 
+}
+
+section.about hr{
+    margin-top: 13%;
 }
 
 .icons-social{
